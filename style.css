@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    /* border: solid 1px red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.side {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+}
+
+.side p {
+    margin-top: 20rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    position: absolute;
+}
+
+.content {
+    background-color: rgb(224, 224, 224);
+}
+
+.content p {
+    margin-top: 1rem;
+    padding: 4rem;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.card {
+    padding: 4rem;
+    padding-top: 0.5rem;
+    font-size: 1.3rem;
+    background-color: white;
+    padding-bottom: 1rem;
+    box-shadow: 0px 4px 10px rgba(72, 72, 72, 0.923);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    color: rgb(82, 82, 82);
+}
+
+tr {
+    display: flex;
+    gap: 5rem;
+}
+
+label {
+    letter-spacing: .2rem;
+}
+
+input {
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(188, 188, 188);
+}
+
+input:focus, input:active {
+    box-shadow: 0px 1px 4px rgba(72, 72, 72, 0.923);
+    outline: none;
+    border: solid 1px rgb(0, 60, 255); 
+}
+
+.btn {
+    padding: 1rem 4rem 1.5rem 4rem;
+    margin-top: 1rem;
+}
+
+button {
+    background-color: rgb(96, 116, 91);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-shadow: 0px 2px 5px rgba(72, 72, 72, 0.923);
+    padding: 1rem;
+    border: 0;
+}
+
+button:active {
+    background-color: rgb(77, 93, 73);
+}
+
+a:link, a:visited {
+    color: rgb(96, 116, 91);
+}
+
+.login p{
+    margin: 0;
+    padding-top: 0;
+}
+
