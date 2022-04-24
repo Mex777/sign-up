@@ -3,6 +3,7 @@
 * {
     /* border: solid 1px red; */
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 body {
@@ -18,7 +19,8 @@ body {
 .side {
     position: relative;
     width: 50vw;
-    height: 100vh;
+    overflow: hidden;
+    height: 109vh;
 }
 
 .side p {
