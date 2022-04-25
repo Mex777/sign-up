@@ -121,3 +121,9 @@ a:link, a:visited {
     padding-top: 0;
 }
 
+td h5 {
+    color: rgb(176, 0, 0);
+    margin-top: .5rem;
+    font-weight: 1;
+    font-size: .8rem;
+}
